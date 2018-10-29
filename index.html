@@ -1,70 +1,119 @@
- <!DOCTYPE html>
- <html>
- <head>
-     <meta charset="utf-8" />
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <title>That Portfolio Though</title>
-     <meta name="viewport" content="width=device-width, initial-scale=1">
-     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/rest.css" />
-     <script src="main.js"></script>
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!DOCTYPE html>
+<html>
 
- </head>
- <body>
-    <header id = "masthead">
-            <nav class="navbar navbar-default navbar-fixed-top">
-                    <div class="container">
-                            
-                                            <a href = "index.html" id = "logo"> Sherry Yang </a>
-                                    
-                                    <nav>        
-                                        
-                                    <a href = "index.html" id = "tab" > About </a>
-                                    <a href = "portfolio.html" id = "tab"> Portfolio </a>
-                                    <a href = "contact.html" id = "tab"> Contact </a>
-                                </nav>
-                    </div>
-                  </nav>
-        
-    </header>
-    <div class = "container">
-        <div class= "row" >
-            <div class = "col-md-6">
-                <div class = "container">
-                    <section class= "main-section">
-                        <h1> About Me </h1>
-                        <img src = "assets\images\Portfolio IMG.jpg" id = "profile-img" alt = "Sherry Yang">
-                        <p> Hi, i'm Sherry Yang and welcome to my portfolio web page. Follow me on my 6 month journey on coding and web development. </p>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </p>
-                    </section> 
-                </div>
-            </div>
-            <div class = "col-md-6">
-                    <section class "side-bar">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sherry Yang</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/rest.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Markazi+Text|Roboto" rel="stylesheet">
+    <!-- <script src="main.js"></script> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 
-                        <div id = "connect">
-                            <h2>Connect with Me</h2>
+</head>
 
-                            <img src = "assets\images\linkedin_circle_color-256.png" id = "icon">
-                            <img src = "assets\images\mark-github-128.png" id = "icon">
-                            <img src = "assets\images\stackoverflow-256.png" id = "icon">
-                        </div>
-                    </section>
-            </div>
 
-            
+
+
+
+
+<header id="masthead">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+
+            <a href="index.html" id="logo"> Sherry Yang </a>
+
+            <nav>
+                <br>
+                <a href="about.html" id="tab"> About </a>
+                <a href="portfolio.html" id="tab"> Portfolio </a>
+                <a href="contact.html" id="tab"> Contact </a>
+            </nav>
         </div>
-    <footer>
-        <div class = "container">
-            Copyright &copy; 2017
+    </nav>
+
+</header>
+<style>
+
+body:before {
+	content: '';
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background-image: url(assets/images/background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+      -webkit-filter: blur(5px);
+     -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+     filter: blur(5px);
+     z-index: -9;
+}
+</style>
+
+<body>
+
+<br>
+
+
+<div className="App">
+     
+      
+        <main id="home" style= {{ height: '100%', flex:1, marginLeft: 5}}>
+   <div id="main-container" class="container">
+        <!-- <div class= "row" >
+            <div class = "col-md-6"> -->
+        <!-- <div id="home"> -->
+            <h1 class="lg-heading">
+                Sherry
+                <span class="text-secondary"> X </span> Yang
+            </h1>
+           
+            <h2 class="lg-heading">
+                Developer
+                <span class="text-secondary"> X </span> Designer
+                <span class="text-secondary"> X </span> Consultant
+            </h2>
+<br/>
+            <div class="icons">
+                <a target="_blank" href="https://github.com/xxsherryyy" rel="noopener">
+                    <i class="fab fa-github fa-4x"></i>
+                </a>
+
+                <a target="_blank" href="https://www.behance.net/xxsherryyy" rel="noopener">
+                    <i class="fab fa-behance fa-4x"></i>
+                </a>
+
+                <a target="_blank" href="https://www.linkedin.com/in/sherry-x-yang/" rel="noopener">
+                    <i class="fab fa-linkedin fa-4x"></i>
+                </a>
+
+                <a target="_blank" href="https://medium.com/@xxsherryyy">
+                    <i class="fab fa-medium fa-4x"></i>
+                </a>
+            </div>
+         
         </div>
-</div>
-        
+        </main>
+        </div>
+
+
+   <div class='push'></div>
+</body>
+
+ <footer >
+        <div class="container">
+            Sherry X Yang &copy; 2018
+        </div>
     </footer>
- </body>
- </html>
+</html>
