@@ -5,9 +5,10 @@
   <title>Contact | Your Name</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
-<body>
   <header id = "masthead">
     <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
@@ -23,12 +24,59 @@
             </div>
           </nav>
 </header>
+<style>
+
+    body:before {
+      content: '';
+      position: fixed;
+      width: 100vw;
+      height: 100vh;
+      background-image: url('assets/images/background.JPG');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+          -webkit-filter: blur(5px);
+         -moz-filter: blur(5px);
+        -o-filter: blur(5px);
+        -ms-filter: blur(5px);
+         filter: blur(5px);
+         z-index: -9;
+    }
+    </style>
+
 
   <div id="main-container" class="container">
-    <section class="main-section">
+    <section class="contact-section">
       <h1>Contact</h1>
-      <form id="contact-form">
-        <ul>
+      
+          <div class="icons">
+            
+              <a target="_blank" href="https://www.linkedin.com/in/sherry-x-yang/" rel="noopener">
+                  <i class="fab fa-linkedin fa-4x"><h2>LinkedIn</h2></i>
+              </a>
+             
+           
+              <a target="_blank" href="https://github.com/xxsherryyy" rel="noopener">
+                  <i class="fab fa-github fa-4x"><h2>GitHub</h2></i>
+              </a>
+          
+              <a target="_blank" href="https://www.behance.net/xxsherryyy" rel="noopener">
+                  <i class="fab fa-behance fa-4x"><h2>Behance</h2></i>
+              </a>
+            
+              <a target="_blank" href="https://medium.com/@xxsherryyy">
+                  <i class="fab fa-medium fa-4x"><h2>Medium</h2></i>
+              </a>
+              
+          </div>
+          <hr class="short-break"/>
+          <div class="icons">         
+          <a href="mailto:sherryxxyang@gmail.com">
+              <i class="far fa-envelope fa-4x"><h2>Email</h2></i>
+          </a>  
+      </div>
+        <!-- <ul>
           <li>
             <label for="name">Name</label>                  
             <input class="field-element field-control" id="name" name="name" x-autocompletetype="given-name" type="text" spellcheck="false" maxlength="30" data-title="First" placeholder="John Smith" required="required">
@@ -44,34 +92,19 @@
           <li>
             <label for="message">Message</label>
             <textarea class="field-element" id="message" name="message" required="required"></textarea>
-          </li>
+          </li> 
         </ul>
-        <input type="submit">
+        <a target="_blank" href="https://www.linkedin.com/in/sherry-x-yang/" rel="noopener"><input type="submit"/>
         <div class="hidden form-submission-text">Thank you!</div>
-        <div class="hidden form-submission-html" data-submission-html=""></div>
-      </form>
-    </section>
-    <section class="sidebar">
-      <div id="connect">
-        <h2>Connect with Me</h2>
-        <div id = "connect">
-            <a href="https://www.linkedin.com/in/sherry-yang-374250117/" target="_blank">
-              <img src="assets/images/linkedin_circle_color-256.png" class="social" alt="LinkedIn" />
-            </a>
-            <a href="https://github.com/xxsherryyy" target="_blank">
-              <img src="assets/images/mark-github-128.png" class="social" alt="GitHub" />
-            </a>
-            <a href="https://stackoverflow.com/users/story/9325363" target="_blank">
-              <img src="assets/images/stackoverflow-256.png" class="social" alt="Stack Overflow" />
-            </a>
-            </div>
-      </div>
-    </section>
+        <div class="hidden form-submission-html" data-submission-html=""></div></a> -->
+        </div> 
   </div>
+  
+  <div class='push'></div>
   <footer>
     <div class="container">
-      Sherry X Yang &copy; 2018
+       &copy; 2018 Sherry X Yang
     </div>
   </footer>
-</body>
+
 </html>

@@ -264,8 +264,15 @@ body {
     border-bottom: 0;
   }
   /* contact page */
-  #contact-form ul {
-    margin-bottom: 20px;
+  .contact-section {
+    float: left;
+    width: 100%;
+    min-width: 1000px;
+    min-height: 500px;
+    padding: 40px;
+    margin: 0px;
+    background: #fff;
+    border: 1px solid #ddd;
   }
   #contact-form li {
     margin-bottom: 10px;
@@ -296,9 +303,16 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
-  #icon {
-      max-width: 50px;
-      max-height: 50px;
+  .icons {
+    margin-top: 30px;
+  }
+  .icons a h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4aaaa5;
+    text-shadow: none;
+  }
+  #skills {
+    font-size: large;
   }
   #tab {
       font-size: 20px;
